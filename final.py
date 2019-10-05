@@ -98,10 +98,10 @@ def ghum(
     # setting torque to zero(not very necessary)
     # d.set_torque({k: 0 for k in range(1, 8)})
 
-    # prints done after all commands are executed
+    # prints "done" after all commands are executed
     print("done")
 
-
+#has a few preset angles placed.
 ghum(x, y, 700, 2122, 450)
 time.sleep(1)
 ghum(fx, fy, 450, 2122, 700)
